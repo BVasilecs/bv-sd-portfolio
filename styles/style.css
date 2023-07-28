@@ -4,7 +4,7 @@ html {
 
 body {
     margin: 0 auto;
-    width: 1400px;
+    width: 100%;
     min-width: 1400px;
     font-family: 'IBM Plex Mono', monospace;
     font-weight: 400;
@@ -60,16 +60,25 @@ p {
 
 .banner {
     padding: 0;
-    width: 1400px;
+    width: 100%;
     height: 765px;
     background-image: url(../resources/main_banner.png);
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
     padding: 27px 125px 252px 125px;
+    width: 1400px;
 
+}
+
+.banner__content{
+    width: 1400px;
+    margin: 0 auto;
 }
 
 .logo-link {
@@ -139,6 +148,8 @@ header {
 }
 
 main {
+    width: 1400px;
+    margin: 0 auto;
     padding-bottom: 150px;
 }
 
@@ -301,6 +312,11 @@ footer {
     background-color: #FFF;
     font-family: Manrope, sans-serif;
     border-radius: 30px 30px 0px 0px;
+}
+
+.footer-content{
+    margin: 0 auto;
+    width: 1400px;
 }
 
 .footer-text {
