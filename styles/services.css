@@ -1,0 +1,35 @@
+.serivce__image {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.services__title {
+    margin-bottom: 74px;
+    max-width: 403px;
+
+    font-size: 35px;
+    line-height: 46px;
+}
+
+.service__content {
+    margin-bottom: 74px;
+    max-width: 1150px;
+    height: 283px;
+
+    border-radius: 30px;
+    background: #191C19;
+}
+
+.service__title {
+    margin: 0;
+    padding: 40px 62px 15px 40px;
+    color: #1BFF07;
+    font-size: 55px;
+    line-height: 72px;
+}
+
+.service__desc {
+    max-width: 749px;
+    margin-left: 40px ;
+}

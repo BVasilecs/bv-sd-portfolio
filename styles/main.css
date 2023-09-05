@@ -1,0 +1,72 @@
+@import url(header.css);
+@import url(intro.css);
+@import url(projects.css);
+@import url(skills.css);
+@import url(services.css);
+@import url(contacts.css);
+@import url(footer.css);
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    color: #FFF;
+    background-color: #000;
+}
+
+section {
+    max-width: 1400px;
+    padding: 75px 125px;
+    margin: 0 auto;
+}
+
+main {
+    padding-bottom: 150px;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    letter-spacing: -0.03em;
+}
+
+h1 {
+    color: #1BFF07;
+    font-size: 80px;
+    line-height: 70px;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 72px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    margin-bottom: 5px;
+    font-size: 35px;
+    line-height: 46px;
+}
+
+h4 {
+    font-size: 30px;
+    line-height: 39px;
+}
+
+h5 {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 66px;
+}
+
+p {
+    font-size: 22px;
+    line-height: 29px;
+}
+

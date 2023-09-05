@@ -1,0 +1,54 @@
+.projects-wrapper{
+    padding-top: 150px;
+}
+
+.projects {
+    margin-bottom: 80px;
+}
+
+.project {
+    max-width: 1150px;
+    height: 550px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.project__content {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+.project_1 {
+    background-image: url("../resources/project_realHome.png");
+}
+
+.project_2 {
+    background-image: url("../resources/project_glass.png");
+}
+
+.project_3 {
+    background-image: url("../resources/project_Fesiyen.png");
+}
+
+.projects__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 582px;
+    height: 153px;
+    background-color: #1BFF07;
+    border-radius: 10px;
+
+    color: #000;
+    font-size: 30px;
+    line-height: 39px;
+}
+
+.projects__button:hover {
+    background-color: #000;
+    border: 1px solid #1BFF07;
+    color: #1BFF07;
+
+    transition: background-color 0.5s, color 0.5s;
+}

@@ -1,0 +1,25 @@
+.skills__title {
+    margin-bottom: 48px;
+}
+
+.skill {
+    margin-bottom: 60px;
+}
+
+.skill:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.skill__icon {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.skill__title {
+    margin-bottom: 15px;
+    color: #1BFF07;
+}
+
+.skill__desc {
+    max-width: 778px;
+}
