@@ -2,31 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Мое портфолио</title>
+    <link rel="icon" href="resources/favicon.png" type="image/png">
 
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Manrope&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <section class="banner">
-        <header>
+    <header>
+        <div class="header-wrapper">
             <a class="logo-link" href="/">orlov</a>
             <nav class="nav">
                 <a href="#projects" class="nav__link">портфолио</a>
                 <a href="#skills" class="nav__link">компетенции</a>
-                <a href="#servqices" class="nav__link">услуги</a>
+                <a href="#services" class="nav__link">услуги</a>
                 <a href="#contacts" class="nav__link">контакты</a>
-            </nav>
-        </header>
-        <div class="banner__content">
-            <p class="intro">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
-            <h1 class="intro-header">Привет, я Саша — фронтенд разработчик и дизайнер сайтов</h1> 
+            </nav> 
         </div>
-    </section>
+    </header>
     <main>
+        <section class="intro">
+            <div class="intro__content-wrapper">
+                <div class="intro__content">
+                    <p>Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
+                    <h1 class="intro-header">Привет, я Саша — фронтенд разработчик и дизайнер сайтов</h1> 
+                </div>
+            </div>
+        </section>
         <section class="projects-wrapper" id="projects">
             <h2>Самые свежие проекты</h2>
             <ul class="projects">
