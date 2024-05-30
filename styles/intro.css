@@ -18,15 +18,14 @@
 
 .intro__content{
     position: absolute;
-    bottom: 94px;
-    max-width: 1400px;
+    bottom: 90px;
 }
 
 
 .intro__content p {
     max-width: 430px;
-    height: 103px;
-    margin-bottom: 29px;
+    height: 104px;
+    margin-bottom: 30px; /* to make pixel perfect, that should be 29px. Need to investigate more */
 
     font-size: 20px;
     line-height: 26px;
@@ -34,5 +33,5 @@
 
 .intro-header {
     max-width: 919px;
-    height: 205px;
+    height: 210px;
 }
