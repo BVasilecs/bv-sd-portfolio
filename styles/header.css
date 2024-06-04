@@ -50,7 +50,8 @@ header {
 }
 
 .nav__link:hover {
-    color: #1BFF07
+    color: #1BFF07;
+    transition: 0.5s ease;
 }
 
 @media (max-width: 1199px) {
