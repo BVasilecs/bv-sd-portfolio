@@ -1,19 +1,34 @@
-.serivce__image {
-    display: block;
-    max-width: 100%;
-    object-fit: cover;
+.services__title {
+    margin-bottom: 40px;
+    max-width: 870px;
+
+    font-size: 55px;
+    line-height: 72px;
 }
 
-.services__title {
-    margin-bottom: 74px;
-    max-width: 403px;
+.serivce__image {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+}
 
-    font-size: 35px;
-    line-height: 46px;
+.first {
+    object-position: 50% 7%;
+}
+
+.third {
+    object-position: 50% 34%;
 }
 
 .service__content {
-    margin-bottom: 74px;
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
     max-width: 1150px;
     height: 283px;
 
@@ -22,14 +37,91 @@
 }
 
 .service__title {
-    margin: 0;
-    padding: 40px 62px 15px 40px;
+    width: calc(50% - 10px);
     color: #1BFF07;
     font-size: 55px;
-    line-height: 72px;
+    line-height: 61px;
 }
 
 .service__desc {
-    max-width: 749px;
-    margin-left: 40px ;
+    width: calc(50% - 10px);
+}
+
+@media (max-width: 1199px) {
+    .services__title {
+        margin-bottom: 60px;
+        max-width: 716px;
+    
+        font-size: 45px;
+        line-height: 59px;
+    }
+
+    .serivce__image {
+        height: 162px;
+        border-radius: 24.261px;
+    }
+    
+    .service__content {
+        column-gap: 16px;
+        margin-bottom: 32px;
+        padding-top: 32px;
+        padding-right: 32px;
+        padding-left: 32px;
+        max-width: 100%;
+        height: 229px;
+        border-radius: 24.261px;
+    }
+    
+    .service__title {
+        width: calc(50% - 8px);
+        font-size: 45px;
+        line-height: 50px;
+    }
+    
+    .service__desc {
+        width: calc(50% - 8px);
+    }
+}
+
+@media (max-width: 767px) {
+    .services__title {
+        margin-bottom: 35px;
+        max-width: 326px;
+    
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .serivce__image {
+        height: 225px;
+    }
+
+    .first {
+        object-position: 50% 50%;
+    }
+    
+    .third {
+        object-position: 50% 50%;
+    }
+    
+    .service__content {
+        flex-direction: column;
+        row-gap: 15px;
+        margin-bottom: 60px;
+        padding-top: 30px;
+        padding-right: 0;
+        padding-left: 20px;
+        padding-bottom: 60px;
+        height: auto;
+    }
+    
+    .service__title {
+        width: 100%;
+        font-size: 35px;
+        line-height: 39px;
+    }
+    
+    .service__desc {
+        width: calc(100% - 23px);
+    }
 }
