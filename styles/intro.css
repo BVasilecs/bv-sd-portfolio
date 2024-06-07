@@ -59,6 +59,8 @@
 @media (max-width: 767px) {
     .intro {
         height: 716px;
+        background-size: 136%;
+        background-position: 50% 0%;
     }
     
     .intro__content-wrapper {
