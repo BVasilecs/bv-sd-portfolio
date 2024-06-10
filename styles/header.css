@@ -1,7 +1,9 @@
 header {
-    position: absolute;
-    z-index: 1;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
     width: 100%;
+    transition: top 0.3s;
 }
 
 .header-wrapper {
