@@ -6,12 +6,16 @@ header {
     transition: top 0.3s;
 }
 
+#header.scrolled-up {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
 .header-wrapper {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1400px;
-    padding: 33px 125px 0 125px;
+    padding: 33px 125px;
 }
 
 .logo-link {
